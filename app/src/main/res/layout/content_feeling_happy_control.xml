@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.md.myfirstapp.FeelingHappyControl"
+    tools:showIn="@layout/activity_feeling_happy_control">
+
+    <EditText
+        android:id="@+id/editTextUserInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewDB"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="183dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewDB"
+        android:layout_alignStart="@+id/textViewDB"
+        android:layout_marginBottom="80dp"
+        android:layout_marginStart="42dp"
+        android:text="DELETE" />
+
+    <TextView
+        android:id="@+id/textViewDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonDelete"
+        android:layout_marginEnd="27dp"
+        android:layout_toStartOf="@+id/textViewDB"
+        android:text="ADD" />
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.md.myfirstapp.FeelingConfusedControl"
+    tools:showIn="@layout/activity_feeling_confused_control">
+
+    <EditText
+        android:id="@+id/editTextUserInput"
+        android:layout_width="381dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="-4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <TextView
+        android:id="@+id/textViewDB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="399dp" />
+</android.support.constraint.ConstraintLayout>

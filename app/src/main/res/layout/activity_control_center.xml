@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.md.myfirstapp.ControlCenter">
+
+    <Button
+        android:id="@+id/buttonFeelingAngryCC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feeling Angry CC"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/buttonFeelingDepressedCC"
+        android:layout_marginStart="12dp" />
+
+    <Button
+        android:id="@+id/buttonFeelingDepressedCC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feeling Depressed CC"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="120dp"
+        android:layout_marginStart="84dp"
+        android:layout_below="@+id/buttonFeelingHappyCC"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/buttonFeelingHappyCC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feeling Happy CC"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="204dp"
+        android:layout_below="@+id/buttonFeelingAngryCC"
+        android:layout_alignStart="@+id/buttonFeelingAngryCC"
+        android:layout_marginTop="33dp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/buttonFeelingHappyCC"
+        android:layout_marginBottom="67dp" />
+</RelativeLayout>

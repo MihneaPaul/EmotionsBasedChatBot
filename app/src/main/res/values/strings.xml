@@ -1,0 +1,13 @@
+<resources>
+    <string name="noob_app_name">MyFirstApp</string>
+    <string name="cool_app_name">Panda Behind The Door</string>
+    <string name="title_activity_human_greetings_control">HumanGreetingsControl</string>
+    <string name="title_activity_feeling_angry_control">FeelingAngryControl</string>
+    <string name="title_activity_feeling_alive_control">FeelingAliveControl</string>
+    <string name="title_activity_feeling_angry">FeelingAngry</string>
+    <string name="title_activity_feeling_confused_control">FeelingConfusedControl</string>
+    <string name="title_activity_feeling_depressed_control">FeelingDepressedControl</string>
+    <string name="title_activity_feeling_happy_control">FeelingHappyControl</string>
+
+
+</resources>

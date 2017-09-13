@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.md.myfirstapp">
+
+    <application
+        android:allowBackup="true"
+        android:label="PandaBot"
+        android:roundIcon="@drawable/hello"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FirstActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HumanGreetingsControl"
+            android:label="@string/title_activity_human_greetings_control"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FeelingAngryControl"
+            android:label="@string/title_activity_feeling_angry_control"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FeelingAliveControl"
+            android:label="@string/title_activity_feeling_alive_control"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FeelingConfusedControl"
+            android:label="@string/title_activity_feeling_confused_control"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FeelingDepressedControl"
+            android:label="@string/title_activity_feeling_depressed_control"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FeelingHappyControl"
+            android:label="@string/title_activity_feeling_happy_control"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ControlCenter"></activity>
+    </application>
+
+</manifest>
